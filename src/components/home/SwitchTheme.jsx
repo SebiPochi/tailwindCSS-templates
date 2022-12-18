@@ -11,7 +11,7 @@ const SwitchTheme = ({ setToggle, toggle }) => {
         after:absolute after:top-[4px] after:left-[8px] after:bg-slate-100
         after:border-gray-300  after:rounded-full 
         after:h-10 after:w-10 after:transition-all after:dark:bg-gray-800
-        dark:border-gray-600 peer-checked:bg-blue-900"></div>
+        dark:border-gray-600 peer-checked:bg-slate-400"></div>
     </label>
   )
 }

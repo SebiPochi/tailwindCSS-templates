@@ -9,3 +9,7 @@
 .light {
     @apply bg-neutral-100  transition-all
 }
+
+.h-webkit-full {
+    min-height: -webkit-fill-available;
+}
