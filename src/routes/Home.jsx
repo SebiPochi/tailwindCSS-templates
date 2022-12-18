@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div className={` w-full h-full min-h-screen ${darkMode ? 'dark' : 'light'}`}>
             <SwitchTheme setToggle={setDarkMode} toggle={darkMode} />
-            <div className='grid sm:grid-cols-2 xs:grid-col-1 xs:gap-4 sm:gap-12 xs:mx-4 sm:mx-10 mb-5'>
+            <div className='grid sm:grid-cols-2 xs:grid-col-1 max-sm:gap-4 sm:gap-12 max-sm:mx-4 sm:mx-10 mb-5'>
                 <CardLink to='pinterest'/>
                 <CardLink to='pinterest'/>
                 <CardLink to='pinterest'/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const SwitchTheme = ({ setToggle, toggle }) => {
   return (
-    <label onChange={() => setToggle(!toggle)} className="inline-flex m-5 relative cursor-pointer">
+    <label onChange={() => setToggle(!toggle)} className="inline-flex m-5 relative cursor-pointer max-sm:ml-5 ml-10">
         <input type="checkbox" value="" className="sr-only peer" />
         <div className="w-24 h-12 
         bg-gray-600 peer-focus:outline-none rounded-full peer 
